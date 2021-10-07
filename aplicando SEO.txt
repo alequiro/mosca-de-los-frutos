@@ -1,0 +1,12 @@
+a continuacion se detallan todos los cambios realizados en el sitio web
+
+1-se identaron todas las paginas, de esta manera es mas legible al momento de querer leer el codigo
+2-se agrego etiqueta meta name description
+3-se agrego etiqueta meta name keywords
+4-se agregaron comentarios en todas las paginas con sus respectivos inicio y final
+5-al cartel del sitio se le dio importancia con un h1
+6-se corrigio errores en el codigo, borrando etiquetas div que estaban de mas
+7-se agregaron 2 paginas mas, registrate y contactos
+8-en el archivo main, se borro codigo que no era necesario
+9-se le dio animacion a las imagenes en la pagina productos.
+10-se le coloco el encabezado a todas las paginas como corresponde.
