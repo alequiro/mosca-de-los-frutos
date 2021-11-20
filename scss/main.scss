@@ -1,14 +1,4 @@
-p {
-	@if $color-letra == azul{
-		color: blue;
-	}
-	@else if $color-letra == rojo{
-		color: red;
-	}
-	@else{
-		color: black;
-	}
-}
+
 @for $i from 1 through 12{
 	.col-#{$i}{
 		width: ($ancho / 12) * $i;
@@ -88,94 +78,42 @@ p {
 	border-color: $color-btn;
 }
 /*inicio de info sobre mosca de los frutos*/
-.imagenSobreNosotros{
-	width: 45%;
-	height: 50%;
+.card-img-top{
+	margin-top: 5px;
 }
-.contentText{
-	width: 48%;
-}
-.contentText .tituloChico span{
-	background: black;
-	color: $color;
-	border-radius: 50%;
-	display: inline-block;
+.titarj{
 	text-align: center;
-	width: 30px;
-	height: 30px;
-	padding: 5px;
 }
-.textoChico{
-	padding: 0px 0px 30px 15px;
-	font-weight: 300;
+.card-text{
 	text-align: justify;
 }
-.titulo{
-	color: black;
-	font-size: 30px;
-	text-align: center;
-	margin-bottom: 60px;
-}
 /*inicio de opinion de vecinos*/
-.contentVecinos{
-	display: flex;
-	justify-content: space-evenly;
-	margin: 20px;
+.card{
 
+	border: none;
+	text-align: center;
+	max-width: 500px;
+	margin: 5rem auto 2.6rem;
 }
-.contentVecinos .contentTarjeta{
-	background: black;
-	display: flex;
-	width: 46%;
-	height: 200px;
-	align-items: center;
-	justify-content: space-evenly;
-	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-}
-.contentVecinos .contentTarjeta img{
-	width: 30%;
-	height: 75%;
-	object-fit: cover;
-	border: 3px solid $color;
-	border-radius: 50%;
-	display: block;
-}
-.contentVecinos .contentTarjeta .contentText{
-	width: 60%;
-	color: $color;
-}
-.contentVecinos .contentTarjeta .contentText p{
-	font-weight: 300;
-	padding-top: 5px;
-    color: $color;
-}
+
+
 .container{
-	padding: 60px 30px 30px 0;
+	padding-bottom: 10px;
+	border-bottom: 5px;
 }
 /*footer del sitio*/
 .footer{
-    background: #414141;
-	padding: 60px 0 30px 0;
-	margin: auto;
-	overflow: hidden;
-        &__contentFooter{
-            display: flex;
-	        width: 90%;
-	        justify-content: space-evenly;
-	        margin: auto;
-	        padding-bottom: 50px;
-	        border-bottom: 1px solid $color;
-	        color: $color;
-	        &--contentFoo{
-                    text-align: center;
-                    &--p{
-                        color: white;
-                    }
-        	}
-                
-        }
-                    
+	background: grey;
+	padding: 1.2rem;
+	color: #efefef;
+	box-sizing: border-box;
+	margin: 0;
 }
+.contentFoo p{
+	color: white;
+	font-size: 16px;
+}
+
 .portada{
 	color: black;
 	font-size: 30px;
